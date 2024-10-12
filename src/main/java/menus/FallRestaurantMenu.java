@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package menus;
 
 import menu_factory.RestaurantMenuFactory;
@@ -19,7 +16,6 @@ public class FallRestaurantMenu extends RestaurantMenu {
     }
 
 
-    
     @Override
     public void populateMenu() {
         System.out.println("Adding items to " + getName());
