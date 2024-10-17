@@ -10,7 +10,17 @@ package components;
  */
 public class FallDrink implements Drink {
 
-    @Override
+//    // TODO REVISIT THIS
+//    private String DrinkList[] = {"Margarita", "Dark Rum", "Orange Juice"};
+//    @Override
+//    public String toString() {
+//        String str = "";
+//        for (String s : DrinkList) {
+//            str += s + "\n";
+//        }
+//        return str;
+//    }
+
     public String toString() {
         return """
                 Margarita
