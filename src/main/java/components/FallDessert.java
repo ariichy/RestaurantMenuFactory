@@ -14,7 +14,7 @@ public class FallDessert implements Dessert {
     public String toString() {
         return """
                 Carrot Cake
-                White Chocalate Cheesecake
+                White Chocolate Cheesecake
                 Apple Pie""";
     }
 }
