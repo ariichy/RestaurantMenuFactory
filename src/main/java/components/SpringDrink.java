@@ -1,15 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package components;
 
 /**
- *
- * @author gouraya
+ * This class is a concrete implementation of the {@code Drink} interface.
+ * It defines the specific drinks for the Spring menu.
+ * @author Austin Richardson
  */
 public class SpringDrink implements Drink  {
 
+    /**
+     * This method defines the specific drinks for the Spring menu.
+     * @return a {@code String} of Spring drinks.
+     */
     @Override
     public String toString() {
         return """
