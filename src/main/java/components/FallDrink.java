@@ -1,26 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package components;
 
 /**
- *
- * @author gouraya
+ * This class is a concrete implementation of the {@code Drink} interface. It defines the Fall drink list.
+ * @author Austin Richardson
  */
 public class FallDrink implements Drink {
 
-//    // TODO REVISIT THIS
-//    private String DrinkList[] = {"Margarita", "Dark Rum", "Orange Juice"};
-//    @Override
-//    public String toString() {
-//        String str = "";
-//        for (String s : DrinkList) {
-//            str += s + "\n";
-//        }
-//        return str;
-//    }
-
+    /**
+     * This method defines the specific drinks for the Fall menu.
+     * @return a {@code String} of the Fall drinks.
+     */
     public String toString() {
         return """
                 Margarita

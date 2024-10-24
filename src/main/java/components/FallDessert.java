@@ -1,15 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package components;
 
 /**
- *
- * @author gouraya
+ * This class is a concrete implementation of the {@code Dessert} interface.
+ * It defines the Fall dessert list.
+ * @author Austin Richardson
  */
 public class FallDessert implements Dessert {
 
+    /**
+     * This method defines the specific Fall dessert items for the Fall menu.
+     * @return a {@code String} of the Fall desserts.
+     */
     @Override
     public String toString() {
         return """
