@@ -1,15 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package components;
 
 /**
- *
- * @author gouraya
+ * This class is a concrete implementation of the {@code Entree} interface.
+ * It defines the specific list of entree's for the Summer menu.
+ * @author Austin Richardson
  */
 public class SummerEntree implements Entree {
 
+    /**
+     * This method defines the specific entree's for the Summer menu.
+     * @return a {@code String} of Summer entree's.
+     */
     @Override
     public String toString() {
         return """
