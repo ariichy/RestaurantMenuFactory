@@ -6,8 +6,10 @@ import components.MainCourse;
 import components.Entree;
 
 /**
- *
- * @author gouraya
+ * This clas is responsible for setting the contract that all subclasses must fulfill.
+ * Including an abstract method {@code populateMenu}, and a {@code toString()} that
+ * formats the console output of each menu that uses it.
+ * @author Austin Richardson
  */
 public abstract class RestaurantMenu {
     
@@ -20,32 +22,27 @@ public abstract class RestaurantMenu {
     protected Dessert dessert;
     protected Drink drink;
     
-    
+    /*
+    Getters and Setters
+     */
     public String getName() {
-        // Add the required code here
         return name;
-       // return null;
     }
     
     public void setName(String name) {
-        // Add the required code here
         this.name = name;
     }
     
     public String getPeriod() {
-        // Add the required code here
         return period;
-        //return null;
     }
     
     public void setPeriod(String p) {
-        // Add the required code here
         this.period = p;
     }
     
     public abstract void populateMenu();
-    
-    // 
+
     // Returns the menu contents
     @Override
     public String toString() {
