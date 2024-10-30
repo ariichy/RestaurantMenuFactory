@@ -65,7 +65,7 @@ public abstract class RestaurantMenu {
                 
                 Drinks:
                 %s
-                """.formatted(getName(), getPeriod(),entree, mainCourse, dessert, drink);
+                """.formatted(getName(), getPeriod(), entree, mainCourse, dessert, drink);
     }
 
 }
